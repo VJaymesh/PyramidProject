@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head> <title> </title> </head>
+<body onload="pyramid();">
+<script>
+function pyramid(){
+       let num =11, counter=1;
+	for (r = 0; r < num ; r++) {
+   		for (c = 0; c < num-1; c++) {
+		   document.write("\u00A0\u00A0");
+		}
+
+    	        for(star = 0; star <counter; star++) {
+		    document.write("*");
+		}
+	num--;
+        counter+=2;
+	document.write("<br>");
+	}
+
+}
+</script>
+</body>
+</html>
