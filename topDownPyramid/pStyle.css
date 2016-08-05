@@ -1,0 +1,13 @@
+#frmSection {
+    width: 50%;
+    margin: auto;
+}
+input {
+    width: 35px;
+    height: 30px;
+}
+#frm {
+    background-color: #AA0;
+    border: 2px black solid;
+    text-align: center;
+}
